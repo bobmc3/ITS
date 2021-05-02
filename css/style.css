@@ -1,0 +1,116 @@
+* {
+	box-sizing: border-box;
+}
+
+/*Layout
+-----------------------------------------------------*/
+html, body {
+	height: 100%;
+	font-family: 'Segoe UI', Helvetica, sans-serif;
+	
+}
+ 
+
+
+:root {
+	--cor-p: #000!important; 
+	--cor-a: #000!important;
+	}
+  
+
+p {
+	color:var(--cor-p);
+  }
+
+a {
+	text-decoration: none;
+	
+	color:var(--cor-a);
+  }
+
+
+/* -----------------------side nav------------ */
+
+#sideNav li  {
+	text-decoration: none;
+ 	list-style-type: none;
+	 padding: 10px;
+ 
+}
+
+
+/* ----------------------table  ------------------------------- */
+
+
+thead th { 
+	text-align: center;
+}
+
+.tdDataCell {
+	width: 100px;
+}
+
+.tdData {
+	text-align: center;
+	width: 135px;
+	border:none;
+	background-color: transparent;
+	outline: none;
+
+}
+
+.tdCenter {
+	text-align: center;
+}
+
+.tdTempo {
+	width: 75px;
+	border:none;
+	background-color: transparent;
+	outline: none;
+}
+
+.tdTxt {
+	width: 100px;
+	border:none;
+	background-color: transparent;
+	outline: none;
+}
+
+.tdTxtArea {
+	width: 250px;
+	border:none;
+	background-color: transparent;
+	outline: none;
+}
+
+
+.tdEditData {
+	text-align: left;
+	width: 125px;
+	font-size: 14px;
+}
+
+.tdEditTempo{
+	width: 80px;
+}
+
+.tdEditTxt {
+	width: 100px;
+}
+
+.tdEditTxtArea {
+	width: 250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
